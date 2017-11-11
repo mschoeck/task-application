@@ -1,0 +1,1 @@
+docker run -ti -p 9080:8080 -p 1521:1521 -p 6800:6800 -v ~/.oracle_db/data:/u01/app/oracle -e MANUAL_DBCA=true -e VNC_PASSWORD=oracle sath89/oracle-12c
